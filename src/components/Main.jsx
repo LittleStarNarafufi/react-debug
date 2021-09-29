@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./styles/Main.css" 
 const Main = () => {
   return (
     <main>
@@ -23,10 +23,28 @@ const Main = () => {
         </video>
       </section>
       <section className="extern-links-section">
-        links a sitios externos
+         <ul>
+              <li>
+                <a href="/">
+                  <img src="http://cine.ar/img/tv.cine.ar.svg" className="img-extern-links-section"alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="/">
+                  <img src="http://cine.ar/img/play.cine.ar.svg"className="img-extern-links-section" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="/">
+                  <img src="http://cine.ar/img/estrenos.cine.ar.svg"className="img-extern-links-section" alt="" />
+                </a>
+              </li>
+        </ul>
       </section>
     </main>
-  ;
-};
+  );
+}
 
 export default Main;
