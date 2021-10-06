@@ -5,7 +5,7 @@ const redesSociales = [
   {
     textoAlternativo: "Icono de Facebook",
     srcDelIcono: "./assets/ifacebook.png",
-  },
+  } ,
   {
     textoAlternativo: "Icono de Twitter",
     srcDelIcono: "./assets/itwitter.png",
@@ -13,7 +13,7 @@ const redesSociales = [
   {
     textoAlternativo: "Icono de Instagram",
     srcDelIcono: "./assets/iinstagram.png",
-  },
+  }
 ];
 
 const enlacesARedesSociales = redesSociales.map(

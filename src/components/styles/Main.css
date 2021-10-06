@@ -1,4 +1,12 @@
 .img-extern-links-section{
     width: 200px;
     height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.EnlacesFooter {
+    display: flex;
+    justify-content: center;
+    
 }
